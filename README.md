@@ -4,6 +4,7 @@ An interactive, browser-based reference evapotranspiration calculator using the 
 
 ## Features
 - Slider-based entry for maximum/minimum temperature, relative humidity, wind speed and solar radiation
+- Optional sunshine-hours input: solar radiation is estimated as Rs = (0.25 + 0.50 n/N) × Ra (FAO-56 default coefficients)
 - Editable date, latitude, elevation and wind sensor height
 - Automatic conversion of wind speed to 2 m
 - Displays ETo, net radiation, vapour pressure deficit and wind speed at 2 m
